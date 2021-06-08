@@ -10,3 +10,4 @@ const b = function() {
 
 const x = null;
 a();
+console.log();

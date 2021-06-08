@@ -1,0 +1,9 @@
+.title-bar {
+  background-color: blue;
+  color: white;
+  padding: 15px;
+}
+
+.title-bar h1 {
+  margin: 0px;
+}
