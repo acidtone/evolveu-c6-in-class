@@ -17,6 +17,7 @@
     - MDN: [Pseudo-classes and pseudo-elements](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements)
     - CSS Tricks: [Introduction to pseudo-elements](https://css-tricks.com/almanac/selectors/a/after-and-before/)
     - CSS Tricks: [A Whole Bunch of Amazing Stuff Pseudo Elements Can Do](https://css-tricks.com/pseudo-element-roundup/)
+    - MDN: [`attr()`](https://developer.mozilla.org/en-US/docs/Web/CSS/attr())
 2. CSS flexibility to resize content to window size
 3. Top library or framework to streamline your CSS styling management. 
     - 3 general paradigms for CSS libraries
@@ -98,7 +99,7 @@
 ### Materials
 1. Reference:
     - [Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
-    - [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/complete-guide-grid/)
+    - [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
     - [Grid by Example](https://gridbyexample.com/)
         - [Grab and Go Patterns](https://gridbyexample.com/patterns/)
         - [Step-by-step Tutorials](https://gridbyexample.com/video/)
