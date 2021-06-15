@@ -12,6 +12,27 @@
 
 ---
 
+## Padlet questions
+1. Classes, pseudo classes, pseudo elements, content properties.
+    - MDN: [Pseudo-classes and pseudo-elements](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements)
+    - CSS Tricks: [Introduction to pseudo-elements](https://css-tricks.com/almanac/selectors/a/after-and-before/)
+    - CSS Tricks: [A Whole Bunch of Amazing Stuff Pseudo Elements Can Do](https://css-tricks.com/pseudo-element-roundup/)
+2. CSS flexibility to resize content to window size
+3. Top library or framework to streamline your CSS styling management. 
+    - 3 general paradigms for CSS libraries
+        1. Vanilla CSS: Flexible but often difficult to create and maintain
+        2. Frameworks: Easy to get started but the framework (i.e. Bootstrap, Material UI) often locks you in and becomes difficult to override. You will often find yourself "fighting the framework". Every Bootstrap site kinda looks the same.
+        3. Utility libraries: A sometimes happy medium, utility libraries (like [Tailwind](https://tailwindcss.com/)) provides utility classes for common patterns but doesn't lock you into a framework.
+    - Architectures: For complex sites, you often need to think carefully about naming and organization of your styles. Popular architectures
+        - [ITCSS](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)
+        - [BEM](http://getbem.com/) (Block Element Modifier)
+            - See: [How to Organize Your CSS with a Modular Architecture
+(OOCSS, BEM, SMACSS)](https://snipcart.com/blog/organize-css-modular-architecture)
+        - [Atomic CSS](https://css-tricks.com/lets-define-exactly-atomic-css/)
+            - See: [Block-Element-Modifier (BEM) & Atomic CSS](https://www.sitepoint.com/css-architecture-block-element-modifier-bem-atomic-css/)
+
+---
+
 ## Agenda
 1. Progressive Enhancement
 2. Layout patterns with CSS Grid and Flexbox
@@ -52,10 +73,10 @@
 
 ## 2. Layout patterns with CSS Grid and Flexbox
 ### Terminology
-Flex or Grid Container
+**Flex or Grid Container**
 : An element with `display: flex` or `display: grid` which creates a "flex/grid context" for its Items.
 
-Flex or Grid Item
+**Flex or Grid Item**
 : All direct children of the Container. Often selected with a child selector such as `.container > *`.
 
 ### Key Takeaways
@@ -92,7 +113,7 @@ Flex or Grid Item
     - Codepen: [Form with CSS Grid](https://codepen.io/acidtone/pen/vYBQgJm)
     - Codepen: [Form with minimal CSS](https://codepen.io/acidtone/pen/WNeYRwy)
 
-### Activity: Fluid typography with overrides
+### Activity: Responsive two-columns
 - Codepen: [Responsive Text: Max Line Length with Scroll Track](https://codepen.io/browsertherapy/pen/RwaJmbx)
   - Using [Lorem Picsum](https://picsum.photos/), add an image to the above text box as a sibling element.
   - Using a media query, display the text and image side by side on wide screens, using either Flexbox or Grid.
@@ -114,8 +135,11 @@ Flex or Grid Item
   - MDN: [`Element.classList`](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
   - MDN: [CSS Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
   - MDN: [`Window.getComputedStyle()`](https://developer.mozilla.org/en-US/docs/Web/API/Window/getComputedStyle)
+- Examples: CSS-only toggles   
+  - Codepen: [CSS-only Animated SVG Hamburger Toggle](https://codepen.io/acidtone/pen/RwpEMxV)
 - Examples: `classList` 
-  - Codepen: [Simmple CSS Toggle](https://codepen.io/browsertherapy/pen/jOWdRze)
+  - Codepen: [Simple CSS Toggle](https://codepen.io/browsertherapy/pen/jOWdRze)
+  - Codepen: [Simple Hamburger Menu Toggle](https://codepen.io/acidtone/pen/xxqmWXb)
   - Demo: [Contrast illusion with CSS toggles](https://acidtone.github.io/illusions/tissue-contrast/)
 - Examples: CSS Variables and `style.setProperty`
   - Codepen: [Simple colour slider](https://codepen.io/browsertherapy/pen/dyMGgaV)
