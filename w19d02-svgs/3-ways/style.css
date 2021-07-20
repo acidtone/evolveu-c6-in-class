@@ -1,0 +1,21 @@
+/* Method 1: SVG as html `img` */
+img {
+  display: block;
+  width: 50vmin;
+}
+
+/* Method 2: SVG as background image */
+div {
+  width: 50vmin;
+  height: 50vmin;
+  background-image: url(no-bugs.svg);
+  background-size: cover;
+}
+
+/* Method 3: Inline SVG */
+svg {
+  width: 50vmin;
+}
+path {
+  fill: rebeccapurple;
+}
